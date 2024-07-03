@@ -75,7 +75,7 @@ startSesi()
 } else if (connection === "oke udah") {
 console.log(color('bentar...'))
 } else if (connection === "open") {
-Skyzo.sendMessage("201143638030@s.whatsapp.net", {text: "اهلا وسهلا بك في بوت واتساب العقرب اليوتيوبر 🥷🐍"})
+Skyzo.sendMessage("201028085788@s.whatsapp.net", {text: "تم تشغيل البوت بنجاح 🐍🌿"})
 console.log(color('العقرب اليوتيوبر 🐍'))
 }
 })
@@ -142,7 +142,7 @@ let tag = check ? [anu.author, num] : [num]
 try {
 ppuser = await Skyzo.profilePictureUrl(num, 'image')
 } catch {
-ppuser = 'https://telegra.ph/file/caa9288c34034e5bb8d28.png'
+ppuser = 'https://telegra.ph/file/b7d88e0d1718342dc9d2b.jpg'
 }
 if (anu.action == 'add') {
 Skyzo.sendMessage(anu.id, {text: check ? `@${anu.author.split("@")[0]} menambahkan @${num.split("@")[0]}` : `Welcome @${num.split("@")[0]}`, 
